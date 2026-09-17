@@ -40,8 +40,6 @@ sentinel-outpost/
 ├── style.css              <-- Tata letak dan tema visual
 └── game.js                <-- Logika game, FSM, Audio, dan Game Loop
 
-# Berikut hasil screenshootnya :
 
-<img width="648" height="919" alt="image" src="https://github.com/user-attachments/assets/92f64244-ef55-42b1-993b-e742d2fdeb76" />
 
 
