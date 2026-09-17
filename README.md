@@ -36,9 +36,9 @@
 ## 📁 Struktur Folder Proyek
 ```text
 sentinel-outpost/
-├── assets/
-│   └── images/
-│       └── gameplay.png   <-- Screenshot tampilan permainan
 ├── index.html             <-- Struktur utama halaman web
 ├── style.css              <-- Tata letak dan tema visual
 └── game.js                <-- Logika game, FSM, Audio, dan Game Loop
+
+<img width="648" height="919" alt="image" src="https://github.com/user-attachments/assets/ba4e47ba-d193-4649-a48c-f4e1cfd87b9f" />
+
