@@ -1,4 +1,4 @@
-#🛡️ Sentinel Outpost - Base Defense
+🛡️ Sentinel Outpost - Base Defense
 Sentinel Outpost adalah game arcade bergaya retro berbasis web yang menantang pemain untuk mempertahankan pangkalan dari gelombang serangan monster es di tengah badai salju. Dibangun murni menggunakan HTML5 Canvas, CSS3, dan Vanilla JavaScript tanpa memerlukan pustaka atau framework eksternal.
 
 ✨ Fitur Utama
