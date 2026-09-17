@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Frostburn Sentinel - Base Defense</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CONTAINER UTAMA -->
+    <div id="game-wrapper">
+
+        <!-- AREA GAME UTAMA -->
+        <div id="game-container">
+
+            <!-- 1. HUD : Informasi Permainan -->
+            <div id="hud">
+                <span id="score-display">SCORE: 0000</span>
+                <span id="wave-display">WAVE: 1</span>
+                <span id="hi-display">HI: 0000</span>
+                <span id="lives-display">♥ 3</span> <!-- Tetap menggunakan hati untuk indikator ketahanan markas -->
+            </div>
+
+            <!-- 2. CANVAS : Area Render Game -->
+            <!-- Titik (0,0) di kiri atas, (500,600) di kanan bawah -->
+            <canvas id="gameCanvas" width="500" height="600"></canvas>
+
+            <!-- 3. OVERLAY : Layar Menu -->
+            <div id="overlay">
+                <h1>Frostburn Sentinel</h1> <!-- Diubah menjadi h1 yang benar -->
+                <p>Cairkan monster es sebelum mereka membekukan markas Anda!</p>
+                <button id="start-btn">START SURVIVAL</button>
+            </div>
+
+        </div>
+
+        <!-- 4. TOUCH CONTROLS : Tombol Virtual -->
+        <div id="touch-controls">
+            <div class="dpad">
+                <button class="ctrl-btn" id="btn-left">◀</button>
+                <button class="ctrl-btn" id="btn-right">▶</button>
+            </div>
+            <!-- Tombol untuk menembakkan proyektil api/suar -->
+            <button class="ctrl-btn fire-btn" id="btn-fire">FIRE</button>
+        </div>
+
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
